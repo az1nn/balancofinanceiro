@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Balanço Financeiro</h1>
+    <div>
+
+        <p><p class="title">Recebimento: </p><br><input type="number" name="recb" id="recb"><button id="btnadd1" onclick="addRecb()">Adicionar</button></p>
+
+        <select name="tbrecb" id="tbrecb" size="5"></select><br>
+        <button id="btnlimp1" onclick="limpar1()">Limpar</button>
+
+        <p><p class="title">Despesa: </p><br><input type="number" name="desp" id="desp"><button id="btnadd2" onclick="addDesp()">Adicionar</button></p>
+
+        <select name="tbdesp" id="tbdesp" size="5"></select><br>
+        <button id="btnlimp2" onclick="limpar2()">Limpar</button><br>
+
+        <button id="btn" onclick="calc()">Calcular</button>
+
+        <p id="res"> </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
